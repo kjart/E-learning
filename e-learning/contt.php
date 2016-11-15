@@ -1,10 +1,9 @@
 <?php
 // create a connection
 $servername = "localhost";
-$username = "kjart";
-$password = "karsyusuf";
-$dbase = "elearning";
-$con = new mysqli($servername,$username,$password,$dbase);
+$username = "prynce";
+$password = "BINBELLO";
+$con = new mysqli($servername,$username,$password);
 
 // check connection
 if ($con->connect_error){
