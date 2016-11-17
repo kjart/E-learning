@@ -31,7 +31,7 @@ if(!empty($_SESSION['error_msg'])){
 ?>
 <form name = "login" action = "sql_login.php" method = "POST">
 <h2 style="color:#3366cc;"> Sign In</h2><br>
-Username: <input type="text" name="name" size="30px" placeholder="Admission Number or Email"><br><br>
+Username: <input type="text" name="name" size="30px" placeholder="Admission Number or RegID"><br><br>
 Password: <input type="password" name="password" value="" size="30px" placeholder="***********"><br><br>
 <br><br> <input type="checkbox"> By clicking you have agreed to the terms of use<br><br>
 <input type="submit" value="Sign In" style="background-color:#3366cc;color:white;cursor:pointer;"><br><br>
