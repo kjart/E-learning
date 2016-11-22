@@ -8,6 +8,7 @@ $password = mysqli_real_escape_string($con,$_POST['password']);
 	// collect the values of the column 
 	//email,password and Uname into a variable
 $name_lent = strlen($name);
+$_SESSION['namelent']=$name_lent;
 //Checking the length of the name variable...
 if ($name_lent==10){
 $select = "SELECT uName FROM `user` WHERE (admNo = '$name') AND password = '$password'" ; // selecting the values
@@ -47,7 +48,7 @@ $count = $result->num_rows;
 	 
  } // end of the if class
  else{
-	$_SESSION['error_msg'] = "username or password is Invalid!";
+	$_SESSION['error_msg'] = "Username or Password is Invalid!";
 	header("location:login.php");
 	
 	 

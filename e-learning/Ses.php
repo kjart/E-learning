@@ -4,7 +4,8 @@ session_start();
 	// sets the value of the session from sql_login.php to a variable
   $user_check = $_SESSION['login_user'];
    // check if the name mayches the one in the database
-  $user_lent = strlen($user_check);
+  $user_lent = $_SESSION['namelent'];
+
   //Using lenght of the variable to determine if a regid or admNo was entered...
   if ($user_lent==10) //This indicates that an admission number was entered... Therefore it picks the username from the user table in the database
   {

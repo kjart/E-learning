@@ -1,0 +1,47 @@
+body{ background-color:#e8e8e8;  }
+#slogan{
+		font-size: 1.2em;
+		font-family: 'Edwardian Script ITC', serif;
+		color: #CCFF00;
+	}
+#nav {
+		
+		padding: 10px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+#main{
+		padding: 10px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	#icon1{
+		padding: 10px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	#logout{
+		text-decoration: none;
+		position: relative;
+		left: 1235px;
+	}
+.w3-panel{
+		width: 30%;
+		position: relative;
+		top: 15px;
+		left: 500px;
+		text-align: center;
+		font-size: 1.2em;}
+	#formbox{
+		width: 60%;
+		padding: 20px;
+		position: relative;
+		top: -25px;
+		left: 300px;
+	}
+	h2{
+		text-align: center;
+	}
+		h1{
+		font-family: 'Cooper Black', serif;
+	}
